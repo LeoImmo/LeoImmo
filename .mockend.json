@@ -1,5 +1,6 @@
 {
   "User": {
+    "id": "int",
     "firstname": "string",
     "lastname": "string",
     "email": "string",
@@ -8,9 +9,12 @@
     "createdAt": "date"
   },
   "Post": {
+    "id": "int",
     "title": "string",
+    "id_user": "int",
     "description": "string",
     "categorie": "string",
-    "image": "string"
+    "image": "string",
+    "createdAt": "date"
   }
 }
