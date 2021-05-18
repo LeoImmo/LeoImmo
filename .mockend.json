@@ -6,15 +6,15 @@
     "email": "string",
     "password": "string",
     "enabled": "boolean",
-    "createdAt": "date",
+    "createdAt": "date"
   },
   "Post": {
     "title": "string",
     "views": "int",
     "published": "boolean",
-    "createdAt": "date",
+    "createdAt": "date"
   },
   "Comment": {
-    "body": "string",
+    "body": "string"
   }
 }
