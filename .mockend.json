@@ -1,0 +1,16 @@
+{
+  "User": {
+    "firstname": "string",
+    "lastname": "string",
+    "email": "string",
+    "password": "string",
+    "enabled": "boolean",
+    "createdAt": "date"
+  },
+  "Post": {
+    "title": "string",
+    "description": "string",
+    "categorie": "string",
+    "image": "string"
+  }
+}
