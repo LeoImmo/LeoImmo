@@ -6,15 +6,18 @@
     "email": "string",
     "password": "string",
     "enabled": "boolean",
-    "createdAt": "date"
+    "createdAt": "date",
+    "posts": "Post[]"
   },
   "Post": {
-    "id": "int",
     "title": "string",
-    "id_user": "int",
-    "description": "string",
-    "categorie": "string",
-    "image": "string",
-    "createdAt": "date"
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
